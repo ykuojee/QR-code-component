@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+/* ------------Main - image + text------------ */
+main {
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    margin-top: 10%;
+    max-width: 300px;
+    min-width: 150px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 6px 0px #00000054;
+}
+
+    /* TEXT Style */
+.text {
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.text > h1 {
+    padding-top: 20px;
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0px 0px 2px #00000070;
+}
+
+.text > p {
+    font-size: 15px;
+    padding-top: 20px;
+    color: hsl(220, 15%, 55%);
+}
+
+    /* QR Code Image Style */
+.main-container {
+    width: 100%;        /* 100% of the main width */
+    border-radius: 10px;
+}
+
+/* ------------Footer Style------------ */
+footer {
+    padding: 20px;
+}
+
+footer > p {
+    font-size: 11px;
+    text-align: center;
+}
